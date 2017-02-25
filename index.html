@@ -1,0 +1,38 @@
+<!DOCTYPE html>   
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="GenerateShoppingList.css" type="text/css" 
+  	 rel="stylesheet" />
+    <title>Simple Grocery Store App</title>
+ </head>
+
+ <body>
+ 	  <div class="background"> 
+       <div class="transbox">
+           <p>Welcome to the All Star Food Menu</p>
+       </div>
+   
+       <div id="listdisplay" class="transbox"> 
+           <ul id="groceryList">
+           </ul>
+            <ul id="groceryPriceList">
+           </ul>
+       </div>
+
+     <p>
+      <span id="foodTotal"></span>
+    </p>
+
+    </div>
+
+ <form>
+      <p>Enter new food item and price:</p>
+      <input id="food"        type="text"   placeholder="Add Food Name" />
+       <input id="price"      type="text"   placeholder="Add Price" />
+      <input id="button"      type="button" value="Add Item" />
+</form>
+
+    <script src="GenerateShoppingList.js"> </script>
+ </body>
+    </html>	

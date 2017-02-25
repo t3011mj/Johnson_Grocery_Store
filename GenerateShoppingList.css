@@ -1,0 +1,75 @@
+body {
+	background-image: url("Grocery_Store_V1.jpg");
+	background-size: 100% 1000px;
+	background-repeat: no-repeat;
+  font-family: "Calibri";
+  font-size: 25px;
+	text-align: center;
+  color: white;
+}
+
+ul {
+	list-style-type: none;
+  text-align: left;
+  margin-left: 10px;}
+
+div.background {
+  position: relative;
+  /* background: url(Grocery_Store.jpg) repeat; */
+  background-color: lightgray;
+  opacity: .8;
+  border: 2px solid lightgray ;
+  width: 60%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+div.transbox {
+  position: relative;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid lightgray ;
+  opacity: 0.7;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+#listdisplay {
+	color: black;
+  font-size: 30px;
+  font-weight: bold;
+	margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#groceryList {
+  display: inline-block;
+  position: relative;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+#groceryPriceList {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  margin-top: -212px;
+}
+
+#foodTotal {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: -50px;
+}
